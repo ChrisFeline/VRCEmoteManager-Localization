@@ -1,0 +1,262 @@
+{
+	"DISPLAY_NAME": "English",
+
+	"LANGUAGE_LABEL": "Language",
+	"LANGUAGE_LABEL.TOOLTIP": "Change your target language in the editor.",
+	
+	"MESSAGES.WRONG_VERSION": "You are using the incorrect version of unity recommended for VRChat. This can cause unexpected behaviour, please upgrade your project or create a fresh one using the current officially supported version: {0}",
+	"MESSAGES.AVATAR_PARENT": "You need to place this component inside an avatar as a child object for it to work properly.",
+	"MESSAGES.STARTUP": "You can start adding emotes or folders using the buttons below. You can also drag an AnimationClip to this window to add it automatically.",
+
+	"SETTINGS.LABEL": "Build Settings",
+	"SETTINGS.MENU_PATH": "Menu Path",
+	"SETTINGS.MENU_PATH.TOOLTIP": "You can specify a custom menu hierarchy where this component will generate the main menu.",
+
+	"SETTINGS.WriteDefaultsAction": "Write Defaults Action",
+	"SETTINGS.WriteDefaultsAction.TOOLTIP": "Write default options for individual layers. Change this if you want a consistent Write Defaults settings for each layer.",
+
+	"SETTINGS.WriteDefaultsFX": "Write Defaults FX",
+	"SETTINGS.WriteDefaultsFX.TOOLTIP": "Write default options for individual layers. Change this if you want a consistent Write Defaults settings for each layer",
+	
+	"SETTINGS.SeparateSpeedSlider": "Separate Speed Slider",
+	"SETTINGS.SeparateSpeedSlider.TOOLTIP": "If enabled, the speed slider will be added to the main menu instead of being embedded onto each emote.",
+	
+	"SETTINGS.ResetSpeedOnEmoteStop": "Reset Speed On Emote Stop",
+	"SETTINGS.ResetSpeedOnEmoteStop.TOOLTIP": "If enabled, emote speed will be reset to the default fraction \"25%\" after the current emote stops.",
+
+	"SETTINGS.ResetSpeedOnCloseRadial": "Reset Speed On Close Radial",
+	"SETTINGS.ResetSpeedOnCloseRadial.TOOLTIP": "If enabled, emote speed will be reset upon closing the speed radial slider.",
+
+	"SETTINGS.RandomEmoteButton": "Random Emote Button",
+	"SETTINGS.RandomEmoteButton.TOOLTIP": "If enabled, a button to play random emotes will be added on the main menu. Have fun!",
+
+	"SETTINGS.AppendFolderSize": "Append Folder Size",
+	"SETTINGS.AppendFolderSize.TOOLTIP": "If enabled, the total amount of emotes contained will be appended to the label of the folder.",
+
+
+	"SETTINGS.CUSTOM_AUDIO_PATH": "Custom Audio Path",
+	"SETTINGS.CUSTOM_AUDIO_PATH.TOOLTIP": "Specify a custom audio path for a custom AudioSource under this avatar.",
+	"SETTINGS.AUDIO_PATH": "Audio Path",
+	"SETTINGS.AUDIO_PATH.TOOLTIP": "The custom path that will be used, an audio source will be added automatically at upload if this field is empty.",
+	"SETTINGS.AUDIO_HELP_BOX": "[!] This tool will automatically create an audio source at upload.\n\n[!] Set a custom path if you want the emote audio to play on a different AudioSource under the avatar.\n\n[!] Drag & Drop an AudioSource component into the field above to automatically find and fill the audio path.",
+
+	"SETTINGS.CUSTOMIZE_CONTROLS": "Customize Controls",
+	"SETTINGS.CUSTOMIZE_CONTROLS.TOOLTIP": "Here you can customize your icons and labels that will be displayed on your expressions menu.",
+	"SETTINGS.CONTROLS_ICON": "Icon",
+	"SETTINGS.CONTROLS_ICON.TOOLTIP": "This control's icon as displayed in the expressions menu.",
+	"SETTINGS.CONTROLS_LABEL": "Label",
+	"SETTINGS.CONTROLS_LABEL.TOOLTIP": "This control's label, is the text displayed below the icon. (Yes, you can use Rich Text)",
+
+	"SETTINGS.ControlMain": "Control Main",
+	"SETTINGS.ControlMain.TOOLTIP": "Main control that will appear on your expressions menu. Every other control will be contained inside a submenu under this one.",
+
+	"SETTINGS.ControlVolume": "Control Volume",
+	"SETTINGS.ControlVolume.TOOLTIP": "Control used to change the volume of the audio source used for the emotes.",
+
+	"SETTINGS.ControlSpeed": "Control Speed",
+	"SETTINGS.ControlSpeed.TOOLTIP": "Control used to change the speed of the animation in real time. Requires the option \"$$SETTINGS.SeparateSpeedSlider$$\" to be enabled.",
+
+	"SETTINGS.ControlList": "Control List",
+	"SETTINGS.ControlList.TOOLTIP": "Control used to contain the list of your emotes.",
+
+	"SETTINGS.ControlSettings": "Control Settings",
+	"SETTINGS.ControlSettings.TOOLTIP": "Control used to store toggles and other settings.",
+
+	"SETTINGS.ControlSync": "Control Sync",
+	"SETTINGS.ControlSync.TOOLTIP": "Control used to enable Emote Sync if at least one animation has Sync enabled.",
+	
+	"SETTINGS.ControlSyncGlobal": "Control Sync Global",
+	"SETTINGS.ControlSyncGlobal.TOOLTIP": "Control used to switch Emote Sync to a global setting, this means that anyone can make you dance from anywhere. This is limited by avatar culling.",
+	
+	"SETTINGS.ControlPage": "Control Page",
+	"SETTINGS.ControlPage.TOOLTIP": "Control used when there's more than 8 items in a page, this button will be generated.",
+
+	"SETTINGS.ControlRandom": "Control Random",
+	"SETTINGS.ControlRandom.TOOLTIP": "Control used to play a random emote from your list.",
+
+	"SETTINGS.ControlGroup": "Control Group",
+	"SETTINGS.ControlGroup.TOOLTIP": "Control used for folders and groups. This is the default look of custom folders.",
+
+	"SETTINGS.ControlEmote": "Control Emote",
+	"SETTINGS.ControlEmote.TOOLTIP": "Control used for the toggles and buttons for emotes. Default look of emote buttons.",
+
+
+	"SETTINGS.CUSTOM_PARAMETERS": "Customize Parameters",
+	"SETTINGS.CUSTOM_PARAMETERS.TOOLTIP": "Customize the parameters used on the animator in generated transitions.",
+	"SETTINGS.CUSTOM_PARAMETERS_INFO": "[?] You can customize your parameters if you want to use OSC or interact with the parameters in other animators or layers.",
+
+	"SETTINGS.ParameterInt": "Parameter Int",
+	"SETTINGS.ParameterInt.TOOLTIP": "(INT) Parameter used to transition to the specific emote that will be played.",
+
+	"SETTINGS.ParameterVolume": "Parameter Volume",
+	"SETTINGS.ParameterVolume.TOOLTIP": "(FLOAT) Parameter used to drive the AudioSource volume.",
+
+	"SETTINGS.ParameterSpeed": "Parameter Speed",
+	"SETTINGS.ParameterSpeed.TOOLTIP": "(FLOAT) Parameter used to drive the animation speed in real time.",
+
+	"SETTINGS.ParameterSyncToggle": "Parameter Sync Toggle",
+	"SETTINGS.ParameterSyncToggle.TOOLTIP": "(BOOL) Parameter used to check toggle status for Emote Sync.",
+
+	"SETTINGS.ParameterSyncGlobal": "Parameter Sync Global",
+	"SETTINGS.ParameterSyncGlobal.TOOLTIP": "(BOOL) Parameter used to check if Emote Sync should have global behaviour.",
+
+	"SETTINGS.ParameterSync": "Parameter Sync",
+	"SETTINGS.ParameterSync.TOOLTIP": "(BOOL) Parameter used internally to check if the avatar received a Emote Sync contact event.",
+
+	"SETTINGS.ParameterSpeedOpen": "Parameter Speed Open",
+	"SETTINGS.ParameterSpeedOpen.TOOLTIP": "(BOOL) Parameter used to check if the speed radial is opened. (Option must be enabled: $$SETTINGS.ResetSpeedOnCloseRadial$$)",
+
+	"SETTINGS.ParameterRand": "Parameter Rand",
+	"SETTINGS.ParameterRand.TOOLTIP": "(BOOL) Parameter used to play a random emote on a toggle.",
+
+	"SETTINGS.ParameterPitch": "Parameter Pitch",
+	"SETTINGS.ParameterPitch.TOOLTIP": "(BOOL) Parameter used internally to check if the current AudioSource pitch should be affected by emote speed.",
+
+	"SETTINGS.EmoteSyncTag": "Emote Sync Tag",
+	"SETTINGS.EmoteSyncTag.TOOLTIP": "The tag used to trigger sync emotes with other players",
+
+	"SETTINGS.PARAMETER_RESET": "RESET",
+
+	"FOLDER.NEW_FOLDER": "New Folder",
+
+	"FOLDER.LABEL": "Folder Label",
+	"FOLDER.LABEL.TOOLTIP": "Text label that will be displayed in the expressions menu.",
+	
+	"FOLDER.ICON": "Folder Icon",
+	"FOLDER.ICON.TOOLTIP": "Icon override to display in the menu entry for this folder.",
+
+	"STATE.EMOTE_COUNT": "{0} Emotes",
+	"STATE.FOLDER_COUNT": "{0} Folders",
+	"STATE.EMPTY_LABEL": "(EMPTY)",
+
+	"STATE.ADD_EMOTE": "ADD EMOTE",
+	"STATE.ADD_FOLDER": "ADD FOLDER",
+
+	"STATE.NO_MOTIONS_ERROR": "No motions assigned to this state. Assign an AnimationClip or BlendTree to the motion property.",
+	"STATE.NO_LOOP_WARNING": "Warning, animation clip does not Loop. This motion will only play a single cycle.",
+
+	"STATE.MOTION": "Motion ",
+	"STATE.MOTION.TOOLTIP": "Animation that will be played for this emote in the action controller.",
+
+	"STATE.MOTION_SPEED": "Speed",
+	"STATE.MOTION_SPEED.TOOLTIP": "Base animation speed, will be affected by the radial slider.",
+	
+	"STATE.MOTION_EXIT_TIME": "Exit Time",
+	"STATE.MOTION_EXIT_TIME.TOOLTIP": "Normalized animation exit time. (0 equals the start of the animation, 1 is the end of the animation, 2 means loops twice, etc...)",
+
+	"STATE.MOTION_IS_ENTRY": "Is Entry",
+	"STATE.MOTION_IS_ENTRY.TOOLTIP": "Marks this motion as entry motion, this will make this motion only play once on start.",
+	"STATE.MOTION_IS_EXIT": "Is Exit",
+	"STATE.MOTION_IS_EXIT.TOOLTIP": "Marks this motion as exit motion, this will make this motion play once the emote is stopped.",
+
+	"STATE.MOTION_AUDIO": "Motion Audio",
+	"STATE.MOTION_AUDIO.TOOLTIP": "Audio to play when playing this entry/exit motion.",
+
+	"STATE.MOTION_AUDIO_LOOP": "Loop Audio",
+	"STATE.MOTION_AUDIO_LOOP.TOOLTIP": "Audio will loop while the motion is active.",
+
+	"STATE.MOTION_TRANSITION_DUR": "Transition Duration",
+	"STATE.MOTION_TRANSITION_DUR.TOOLTIP": "Duration of the transition blending to the next motion, in seconds.",
+
+	"STATE.MOTION_ADD": "Add motion to queue.",
+
+	"STATE.OPTIONS_LABEL": "Options",
+
+	"STATE.OPTIONS_FREEZE": "Freeze Player",
+	"STATE.OPTIONS_FREEZE.TOOLTIP": "Freeze the player's movement while this emote is active.",
+
+	"STATE.OPTIONS_IK": "IK",
+	"STATE.OPTIONS_IK.TOOLTIP": "Use IK for this animation state.",
+
+	"STATE.OPTIONS_SYNC": "Remote Sync",
+	"STATE.OPTIONS_SYNC.TOOLTIP": "This animation will be synched with others wearing the avatar nearby.",
+
+	"STATE.LABEL": "Label",
+	"STATE.LABEL.TOOLTIP": "Text label that will be displayed in the expressions menu.",
+
+	"STATE.ICON": "Icon",
+	"STATE.ICON.TOOLTIP": "Icon override to display in the menu entry for this emote.",
+
+	"STATE.CONTROL_TYPE": "Control Type",
+	"STATE.CONTROL_TYPE.TOOLTIP": "Sets the control type used on the button for this emote.\n\n$$STATE.CONTROL_TYPE.0$$: $$STATE.CONTROL_TYPE.0.TOOLTIP$$\n\n$$STATE.CONTROL_TYPE.1$$: $$STATE.CONTROL_TYPE.1.TOOLTIP$$\n\n$$STATE.CONTROL_TYPE.2$$: $$STATE.CONTROL_TYPE.2.TOOLTIP$$\n\n$$STATE.CONTROL_TYPE.3$$: $$STATE.CONTROL_TYPE.3.TOOLTIP$$",
+
+	"STATE.CONTROL_TYPE.0": "Radial",
+	"STATE.CONTROL_TYPE.0.TOOLTIP": "Creates a radial with motion speed modifier.",
+	"STATE.CONTROL_TYPE.1": "Toggle",
+	"STATE.CONTROL_TYPE.1.TOOLTIP": "Simple toggle without motion speed modifier.",
+	"STATE.CONTROL_TYPE.2": "Button",
+	"STATE.CONTROL_TYPE.2.TOOLTIP": "Motion will play while button is held down.",
+	"STATE.CONTROL_TYPE.3": "One Shot",
+	"STATE.CONTROL_TYPE.3.TOOLTIP": "Toggle plays the animation once and stops after the first play.",
+
+	"STATE.CHANGE_PITCH": "Change Pitch",
+	"STATE.CHANGE_PITCH.TOOLTIP": "Determines if animation speed using radial should affect the Audio pitch.",
+	
+	"STATE.SPEED_MULTIPLIER": "Speed Multiplier",
+	"STATE.SPEED_MULTIPLIER.TOOLTIP": "Used for the radial to multiply the speed by this value. A higher value means faster at 100%. Fraction will be the default playback speed when the emote starts.",
+
+	"STATE.SPEED_FRACTION": "Fraction:",
+
+	"STATE.DECIMATE_KEYFRAMES": "Decimate Keyframes",
+	"STATE.DECIMATE_KEYFRAMES.TOOLTIP": "Creates a copy of this animation with reduced keyframes for fun. (This does not optimize your animations, is just a fun feature.)",
+
+	"STATE.CONSTANT_TANGENTS": "Constant Tangents",
+	"STATE.CONSTANT_TANGENTS.TOOLTIP": "Sets left and right keyframe tangents to Constant for a more choppy effect.",
+
+	"STATE.KEYFRAME_FPS": "Keyframe FPS",
+	"STATE.KEYFRAME_FPS.TOOLTIP": "Frames Per Seconds for the decimated animation.",
+
+	"STATE.RAND_TIME_OFFSET": "Rand Time Offset",
+	"STATE.RAND_TIME_OFFSET.TOOLTIP": "Randomly offsets the resulting keyframe's time by this value for a more destructive result. Recommended values are between 0 and 0.1",
+
+	"STATE.ENABLE_OBJECTS": "Enable Objects",
+	"STATE.ENABLE_OBJECTS.TOOLTIP": "Objects to enable when this emote is played.",
+
+	"STATE.PLAY_AUDIO": "Play Audio",
+	"STATE.PLAY_AUDIO.TOOLTIP": "Enables audio playback for this emote state.",
+
+	"STATE.AUDIO_CUSTOM_PATH": "Custom Audio Path",
+	"STATE.AUDIO_CUSTOM_PATH_MSG": "Define a custom path if you want the audio for this emote to play on a different AudioSource under this avatar's hierarchy.",
+	"STATE.AUDIO_CUSTOM_PATH_LABEL": "Custom Path",
+	"STATE.AUDIO_CUSTOM_PATH_LABEL.TOOLTIP": "The path for the AudioSource.",
+
+	"STATE.AUDIO_INFO_MSG": "These are the configurations that will be applied to the generated VRCAnimatorPlayAudio component on this state.",
+
+	"STATE.AUDIO_PLAYBACK_ORDER": "Playback Order",
+	"STATE.AUDIO_PLAYBACK_ORDER.TOOLTIP": "The playback order for the AudioClip array when it enters the state.",
+
+	"STATE.AUDIO_CLIPS": "Clips",
+	"STATE.AUDIO_CLIPS.TOOLTIP": "Contains the AudioClips to be played.",
+
+	"STATE.AUDIO_PARAMETER_MSG": "Select an 'Int' avatar parameter below. The value of this parameter will determine which clip is selected.",
+
+	"STATE.AUDIO_PARAMETER_NAME": "Parameter Name",
+	"STATE.AUDIO_PARAMETER_NAME.TOOLTIP": "The name of the 'Int' parameter to be used.",
+
+	"STATE.AUDIO_FILTERS": "Filters",
+	"STATE.AUDIO_FILTERS.TOOLTIP": "You can add audio filters to this AudioClip, these will be applied automatically when uploading.",
+	"STATE.AUDIO_FILTERS_WARN": "One or more AudioClips in this state has \"Preload Audio Data\" set to false. Filters will not be applied to these audio files.",
+	
+	"STATE.AUDIO_SETTINGS": "AudioSource Settings",
+	"STATE.AUDIO_SETTINGS.TOOLTIP": "Properties applied to the AudioSource when entering this state.",
+
+	"STATE.AUDIO_RAND_VOLUME": "Random Volume",
+	"STATE.AUDIO_RAND_PITCH": "Random Pitch",
+	"STATE.AUDIO_MIN": "Min",
+	"STATE.AUDIO_MAX": "Max",
+
+	"STATE.AUDIO_LOOP": "Loop",
+	"STATE.AUDIO_LOOP.TOOLTIP": "If enabled, AudioClip will loop for the duration of this state.",
+
+	"STATE.TRANSITIONS": "Extra Transitions",
+	"STATE.TRANSITIONS.TOOLTIP": "Extra custom conditions that can trigger this emote state.",
+	"STATE.TRANSITIONS_ADD": "ADD TRANSITION",
+
+	"STATE.TRANSITION_ENTRY": "Transition {0}",
+
+	"STATE.TRANSITION_CONDITIONS": "Conditions",
+	"STATE.TRANSITION_CONDITIONS.TOOLTIP": "Will trigger this emote when all these conditions are met.",
+
+	"STATE.TRANSITION_STOP_ON_FALSE": "Stop On False",
+	"STATE.TRANSITION_STOP_ON_FALSE.TOOLTIP": "The emote will stop automatically if the condition returns to false."
+}

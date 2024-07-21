@@ -1,0 +1,262 @@
+{
+	"DISPLAY_NAME": "Español",
+
+	"LANGUAGE_LABEL": "Idioma",
+	"LANGUAGE_LABEL.TOOLTIP": "Cambia tu Idioma en el editor.",
+	
+	"MESSAGES.WRONG_VERSION": "Estás utilizando la versión incorrecta de Unity recomendada para VRChat. Esto puede provocar un comportamiento inesperado. Actualice su proyecto o cree uno nuevo utilizando la versión actual: {0}",
+	"MESSAGES.AVATAR_PARENT": "Debes colocar este componente dentro de un Avatar para que funcione correctamente.",
+	"MESSAGES.STARTUP": "Puede comenzar a agregar emotes o carpetas usando los botones a continuación. También puedes arrastrar un archivo de animación a esta ventana para agregarlo automáticamente.",
+
+	"SETTINGS.LABEL": "Configuración General",
+	"SETTINGS.MENU_PATH": "Ruta de Menú",
+	"SETTINGS.MENU_PATH.TOOLTIP": "Puede especificar una ruta de menú personalizada donde este componente generará el menú principal.",
+
+	"SETTINGS.WriteDefaultsAction": "Escribir Predeterminados en Action",
+	"SETTINGS.WriteDefaultsAction.TOOLTIP": "Escriba valores predeterminados para Action. Cambie esto si desea una configuración de valores predeterminados consistente para cada capa.",
+
+	"SETTINGS.WriteDefaultsFX": "Escribir Predeterminados en FX",
+	"SETTINGS.WriteDefaultsFX.TOOLTIP": "Escriba valores predeterminados para FX. Cambie esto si desea una configuración de valores predeterminados consistente para cada capa.",
+	
+	"SETTINGS.SeparateSpeedSlider": "Control de Velocidad Separado",
+	"SETTINGS.SeparateSpeedSlider.TOOLTIP": "Si está habilitado, el control de velocidad se agregará al menú principal en lugar de integrarse en cada emote.",
+	
+	"SETTINGS.ResetSpeedOnEmoteStop": "Restablecer Velocidad al Detener Emote",
+	"SETTINGS.ResetSpeedOnEmoteStop.TOOLTIP": "Si está habilitado, el control de velocidad se restablecerá a la fracción predeterminada \"25%\" después de que se detenga el emote actual.",
+
+	"SETTINGS.ResetSpeedOnCloseRadial": "Restablecer Velocidad al Cerrar Radial",
+	"SETTINGS.ResetSpeedOnCloseRadial.TOOLTIP": "Si está habilitado, el valor de la velocidad se restablecerá al cerrar el control deslizante de velocidad.",
+
+	"SETTINGS.RandomEmoteButton": "Botón de Emote Aleatorio",
+	"SETTINGS.RandomEmoteButton.TOOLTIP": "Si está habilitado, se agregará un botón para reproducir emotes aleatorios en el menú principal.",
+
+	"SETTINGS.AppendFolderSize": "Agregar tamaño de carpeta",
+	"SETTINGS.AppendFolderSize.TOOLTIP": "Si está habilitado, la cantidad total de emotes contenidos se agregará a la etiqueta de la carpeta.",
+
+
+	"SETTINGS.CUSTOM_AUDIO_PATH": "Ruta de Audio Personalizada",
+	"SETTINGS.CUSTOM_AUDIO_PATH.TOOLTIP": "Especifique una ruta de audio personalizada para un AudioSource personalizado dentro de este avatar.",
+	"SETTINGS.AUDIO_PATH": "Ruta de Audio",
+	"SETTINGS.AUDIO_PATH.TOOLTIP": "La ruta personalizada que se utilizará, una fuente de audio se agregará automáticamente si este campo está vacío.",
+	"SETTINGS.AUDIO_HELP_BOX": "[!] Esta herramienta creará automáticamente una fuente de audio al subir.\n\n[!] Establezca una ruta personalizada si desea que el audio del emote se reproduzca en una fuente de audio diferente debajo del avatar.\n\n[!] Arrastre y Suelte un componente AudioSource en el campo de arriba para buscar automáticamente la ruta de audio.",
+
+	"SETTINGS.CUSTOMIZE_CONTROLS": "Personalizar Controles",
+	"SETTINGS.CUSTOMIZE_CONTROLS.TOOLTIP": "Aquí puede personalizar sus íconos y etiquetas que se mostrarán en su menú de expresiones.",
+	"SETTINGS.CONTROLS_ICON": "Icono",
+	"SETTINGS.CONTROLS_ICON.TOOLTIP": "El icono de este control como se muestra en el menú de expresiones.",
+	"SETTINGS.CONTROLS_LABEL": "Etiqueta",
+	"SETTINGS.CONTROLS_LABEL.TOOLTIP": "La etiqueta de este control es el texto que se muestra debajo del icono. (Puede usar texto enriquecido)",
+
+	"SETTINGS.ControlMain": "Control Principal",
+	"SETTINGS.ControlMain.TOOLTIP": "Control principal que aparecerá en tu menú de expresiones. Todos los demás controles estarán contenidos dentro de un submenú debajo de este.",
+
+	"SETTINGS.ControlVolume": "Control de Volumen",
+	"SETTINGS.ControlVolume.TOOLTIP": "Control utilizado para cambiar el volumen de la fuente de audio utilizada para los gestos.",
+
+	"SETTINGS.ControlSpeed": "Control de Velocidad",
+	"SETTINGS.ControlSpeed.TOOLTIP": "Control utilizado para cambiar la velocidad de la animación en tiempo real. Requiere que la opción \"$$SETTINGS.SeparateSpeedSlider$$\" esté habilitada.",
+
+	"SETTINGS.ControlList": "Control de Listado",
+	"SETTINGS.ControlList.TOOLTIP": "Control utilizado para contener la lista de tus emotes.",
+
+	"SETTINGS.ControlSettings": "Control de Configuración",
+	"SETTINGS.ControlSettings.TOOLTIP": "Control utilizado para almacenar toggles y otras configuraciones.",
+
+	"SETTINGS.ControlSync": "Control de Sincronización",
+	"SETTINGS.ControlSync.TOOLTIP": "Control utilizado para habilitar el Sync de emotes si al menos una animación tiene la sincronización habilitada.",
+	
+	"SETTINGS.ControlSyncGlobal": "Control de Sincronización Global",
+	"SETTINGS.ControlSyncGlobal.TOOLTIP": "Control utilizado para cambiar el Sync de emotes a una configuración global, esto significa que cualquiera puede hacerte bailar desde cualquier lugar.",
+	
+	"SETTINGS.ControlPage": "Control de Paginación",
+	"SETTINGS.ControlPage.TOOLTIP": "Control utilizado cuando hay más de 8 elementos en una página, se generará este botón.",
+
+	"SETTINGS.ControlRandom": "Control de Emote Random",
+	"SETTINGS.ControlRandom.TOOLTIP": "Control utilizado para reproducir un emote aleatorio de tu lista.",
+
+	"SETTINGS.ControlGroup": "Control de Carpetas",
+	"SETTINGS.ControlGroup.TOOLTIP": "Control utilizado para carpetas y grupos. Este es el aspecto predeterminado de las carpetas personalizadas.",
+
+	"SETTINGS.ControlEmote": "Control de Emote",
+	"SETTINGS.ControlEmote.TOOLTIP": "Control utilizado para los botones de emotes.",
+
+
+	"SETTINGS.CUSTOM_PARAMETERS": "Personalizar Parámetros",
+	"SETTINGS.CUSTOM_PARAMETERS.TOOLTIP": "Personaliza los parámetros utilizados en el animador en las transiciones generadas.",
+	"SETTINGS.CUSTOM_PARAMETERS_INFO": "[?] Puede personalizar sus parámetros si desea utilizar OSC o interactuar con los parámetros en otros animadores o capas.",
+
+	"SETTINGS.ParameterInt": "Parámetro Int",
+	"SETTINGS.ParameterInt.TOOLTIP": "(INT) Parámetro utilizado para realizar la transición al emote específico que se reproducirá.",
+
+	"SETTINGS.ParameterVolume": "Parámetro Volumen",
+	"SETTINGS.ParameterVolume.TOOLTIP": "(FLOAT) Parámetro utilizado para controlar el volumen de la fuente de audio.",
+
+	"SETTINGS.ParameterSpeed": "Parámetro Velocidad",
+	"SETTINGS.ParameterSpeed.TOOLTIP": "(FLOAT) Parámetro utilizado para controlar la velocidad de la animación en tiempo real.",
+
+	"SETTINGS.ParameterSyncToggle": "Parámetro Sync Toggle",
+	"SETTINGS.ParameterSyncToggle.TOOLTIP": "(BOOL) Parámetro utilizado para alternar el estado de los emotes Sync.",
+
+	"SETTINGS.ParameterSyncGlobal": "Parámetro Sync Global",
+	"SETTINGS.ParameterSyncGlobal.TOOLTIP": "(BOOL) Parámetro utilizado para alternar si Emote Sync debe tener un comportamiento global.",
+
+	"SETTINGS.ParameterSync": "Parámetro Sync",
+	"SETTINGS.ParameterSync.TOOLTIP": "(BOOL) Parámetro utilizado internamente para verificar si el avatar recibió un evento de contacto de Emote Sync.",
+
+	"SETTINGS.ParameterSpeedOpen": "Parámetro Speed Open",
+	"SETTINGS.ParameterSpeedOpen.TOOLTIP": "(BOOL) Parámetro utilizado para comprobar si el radial de velocidad está abierto. (La opción debe estar habilitada: $$SETTINGS.ResetSpeedOnCloseRadial$$)",
+
+	"SETTINGS.ParameterRand": "Parámetro Rand",
+	"SETTINGS.ParameterRand.TOOLTIP": "(BOOL) Parámetro utilizado para reproducir un emote aleatorio.",
+
+	"SETTINGS.ParameterPitch": "Parámetro Pitch",
+	"SETTINGS.ParameterPitch.TOOLTIP": "(BOOL) Parámetro utilizado internamente para comprobar si el tono actual de la fuente de audio debería verse afectado por la velocidad del gesto.",
+
+	"SETTINGS.EmoteSyncTag": "Emote Sync Tag",
+	"SETTINGS.EmoteSyncTag.TOOLTIP": "Tag utilizado para sincronizar emotes con otros jugadores.",
+
+	"SETTINGS.PARAMETER_RESET": "RESET",
+
+	"FOLDER.NEW_FOLDER": "Nueva Carpeta",
+
+	"FOLDER.LABEL": "Etiqueta",
+	"FOLDER.LABEL.TOOLTIP": "Etiqueta de texto que se mostrará en el menú de expresiones.",
+	
+	"FOLDER.ICON": "Icono",
+	"FOLDER.ICON.TOOLTIP": "Icono para mostrar en la entrada de menú de esta carpeta.",
+
+	"STATE.EMOTE_COUNT": "{0} Emotes",
+	"STATE.FOLDER_COUNT": "{0} Carpetas",
+	"STATE.EMPTY_LABEL": "(VACÍO)",
+
+	"STATE.ADD_EMOTE": "AGREGAR EMOTE",
+	"STATE.ADD_FOLDER": "AGREGAR CARPETA",
+
+	"STATE.NO_MOTIONS_ERROR": "No hay animaciones asignadas a este estado. Asigne un AnimationClip o BlendTree a la propiedad de animaciones.",
+	"STATE.NO_LOOP_WARNING": "Advertencia, el clip de animación no se repite. Esta animación sólo reproducirá un único ciclo.",
+
+	"STATE.MOTION": "Animación ",
+	"STATE.MOTION.TOOLTIP": "Animación que se reproducirá para este emote en el controlador de acción.",
+
+	"STATE.MOTION_SPEED": "Velocidad",
+	"STATE.MOTION_SPEED.TOOLTIP": "La velocidad de animación base. Se verá afectada por el control deslizante radial.",
+	
+	"STATE.MOTION_EXIT_TIME": "Tiempo de Salida",
+	"STATE.MOTION_EXIT_TIME.TOOLTIP": "Tiempo de salida de animación normalizado. (0 es igual al inicio de la animación, 1 es el final de la animación, 2 significa repetir dos veces, etc...)",
+
+	"STATE.MOTION_IS_ENTRY": "Es Entrada",
+	"STATE.MOTION_IS_ENTRY.TOOLTIP": "Marca esta animación como animación de entrada, esto hará que esta animación solo se reproduzca una vez al inicio.",
+	"STATE.MOTION_IS_EXIT": "Es Salida",
+	"STATE.MOTION_IS_EXIT.TOOLTIP": "Marca esta animación como animación de salida, esto hará que esta animación se reproduzca una vez que se detenga el emote.",
+
+	"STATE.MOTION_AUDIO": "Audio de Animación",
+	"STATE.MOTION_AUDIO.TOOLTIP": "Audio que se reproducirá al reproducir esta animación de entrada/salida.",
+
+	"STATE.MOTION_AUDIO_LOOP": "Audio Loop",
+	"STATE.MOTION_AUDIO_LOOP.TOOLTIP": "El audio se repetirá mientras la animación esté activa.",
+
+	"STATE.MOTION_TRANSITION_DUR": "Duración de transición",
+	"STATE.MOTION_TRANSITION_DUR.TOOLTIP": "Duración de la transición hacia la siguiente animación, en segundos.",
+
+	"STATE.MOTION_ADD": "Agregar animación a la lista.",
+
+	"STATE.OPTIONS_LABEL": "Opciones",
+
+	"STATE.OPTIONS_FREEZE": "Congelar Jugador",
+	"STATE.OPTIONS_FREEZE.TOOLTIP": "Congela el movimiento del jugador mientras este emote está activo.",
+
+	"STATE.OPTIONS_IK": "IK",
+	"STATE.OPTIONS_IK.TOOLTIP": "Utilice IK para este emote.",
+
+	"STATE.OPTIONS_SYNC": "Sincronización Remota",
+	"STATE.OPTIONS_SYNC.TOOLTIP": "Este emote se sincronizará con otras personas que usen el avatar cerca.",
+
+	"STATE.LABEL": "Etiqueta",
+	"STATE.LABEL.TOOLTIP": "Etiqueta de texto que se mostrará en el menú de expresiones.",
+
+	"STATE.ICON": "Icono",
+	"STATE.ICON.TOOLTIP": "Icono para mostrar en la entrada del menú de este gesto.",
+
+	"STATE.CONTROL_TYPE": "Tipo de control",
+	"STATE.CONTROL_TYPE.TOOLTIP": "Establece el tipo de control utilizado en el botón para este gesto.\n\n$$STATE.CONTROL_TYPE.0$$: $$STATE.CONTROL_TYPE.0.TOOLTIP$$\n\n$$STATE.CONTROL_TYPE.1$$: $$STATE.CONTROL_TYPE.1.TOOLTIP$$\n\n$$STATE.CONTROL_TYPE.2$$: $$STATE.CONTROL_TYPE.2.TOOLTIP$$\n\n$$STATE.CONTROL_TYPE.3$$: $$STATE.CONTROL_TYPE.3.TOOLTIP$$",
+
+	"STATE.CONTROL_TYPE.0": "Radial",
+	"STATE.CONTROL_TYPE.0.TOOLTIP": "Crea un radial con modificador de velocidad de movimiento.",
+	"STATE.CONTROL_TYPE.1": "Toggle",
+	"STATE.CONTROL_TYPE.1.TOOLTIP": "Control simple sin modificador de velocidad de movimiento.",
+	"STATE.CONTROL_TYPE.2": "Botón",
+	"STATE.CONTROL_TYPE.2.TOOLTIP": "El emote se reproducirá mientras se mantenga presionado el botón.",
+	"STATE.CONTROL_TYPE.3": "One Shot",
+	"STATE.CONTROL_TYPE.3.TOOLTIP": "Reproduce el emote una vez y se detiene después de la primera reproducción.",
+
+	"STATE.CHANGE_PITCH": "Afecta tono de audio",
+	"STATE.CHANGE_PITCH.TOOLTIP": "Determina si la velocidad de la animación usando radial debería afectar el tono del audio.",
+	
+	"STATE.SPEED_MULTIPLIER": "Multiplicador de velocidad",
+	"STATE.SPEED_MULTIPLIER.TOOLTIP": "Se utiliza para que el radial multiplique la velocidad por este valor. Un valor más alto significa más rápido al 100%. La fracción será la velocidad de reproducción predeterminada cuando se inicie el gesto.",
+
+	"STATE.SPEED_FRACTION": "Fracción:",
+
+	"STATE.DECIMATE_KEYFRAMES": "Decimar fotogramas",
+	"STATE.DECIMATE_KEYFRAMES.TOOLTIP": "Crea una copia de esta animación con fotogramas clave reducidos por diversión. (Esto no optimiza tus animaciones, es solo una opción divertida).",
+
+	"STATE.CONSTANT_TANGENTS": "Tangentes constantes",
+	"STATE.CONSTANT_TANGENTS.TOOLTIP": "Establece las tangentes de los fotogramas clave izquierdo y derecho en Constante para obtener un efecto más entrecortado.",
+
+	"STATE.KEYFRAME_FPS": "FPS de fotograma",
+	"STATE.KEYFRAME_FPS.TOOLTIP": "Cuadros por segundo para la animación decimada.",
+
+	"STATE.RAND_TIME_OFFSET": "Tiempo Random",
+	"STATE.RAND_TIME_OFFSET.TOOLTIP": "Cambia aleatoriamente el tiempo del fotograma clave con este valor para obtener un resultado más destructivo. Los valores recomendados están entre 0 y 0.1",
+
+	"STATE.ENABLE_OBJECTS": "Habilitar objetos",
+	"STATE.ENABLE_OBJECTS.TOOLTIP": "Objetos para habilitar cuando se reproduce este emote.",
+
+	"STATE.PLAY_AUDIO": "Reproducir audio",
+	"STATE.PLAY_AUDIO.TOOLTIP": "Habilita la reproducción de audio para este emote.",
+
+	"STATE.AUDIO_CUSTOM_PATH": "Ruta de audio personalizada",
+	"STATE.AUDIO_CUSTOM_PATH_MSG": "Defina una ruta personalizada si desea que el audio de este gesto se reproduzca en una fuente de audio diferente bajo la jerarquía de este avatar.",
+	"STATE.AUDIO_CUSTOM_PATH_LABEL": "Ruta personalizada",
+	"STATE.AUDIO_CUSTOM_PATH_LABEL.TOOLTIP": "La ruta de la fuente de audio personalizada.",
+
+	"STATE.AUDIO_INFO_MSG": "Estas son las configuraciones que se aplicarán al componente VRCAnimatorPlayAudio generado en este estado.",
+
+	"STATE.AUDIO_PLAYBACK_ORDER": "Orden de reproducción",
+	"STATE.AUDIO_PLAYBACK_ORDER.TOOLTIP": "El orden de reproducción de los clips de audio al reproducir este emote.",
+
+	"STATE.AUDIO_CLIPS": "Clips",
+	"STATE.AUDIO_CLIPS.TOOLTIP": "Contiene los clips de audio que se van a reproducir.",
+
+	"STATE.AUDIO_PARAMETER_MSG": "Seleccione un parámetro de avatar 'Int' a continuación. El valor de este parámetro determinará qué clip se selecciona.",
+
+	"STATE.AUDIO_PARAMETER_NAME": "Nombre del parámetro",
+	"STATE.AUDIO_PARAMETER_NAME.TOOLTIP": "El nombre del parámetro 'Int' que se utilizará.",
+
+	"STATE.AUDIO_FILTERS": "Filtros",
+	"STATE.AUDIO_FILTERS.TOOLTIP": "Puede agregar filtros de audio a estos clips, estos se aplicarán automáticamente al subir el avatar.",
+	"STATE.AUDIO_FILTERS_WARN": "Uno o más clips de audio en este estado tienen \"Preload Audio Data\" configurado en falso. No se aplicarán filtros a estos archivos de audio.",
+	
+	"STATE.AUDIO_SETTINGS": "Configuración de fuente de audio",
+	"STATE.AUDIO_SETTINGS.TOOLTIP": "Propiedades aplicadas al AudioSource al activar este emote.",
+
+	"STATE.AUDIO_RAND_VOLUME": "Volumen Random",
+	"STATE.AUDIO_RAND_PITCH": "Tono Random",
+	"STATE.AUDIO_MIN": "Min",
+	"STATE.AUDIO_MAX": "Max",
+
+	"STATE.AUDIO_LOOP": "Repetir",
+	"STATE.AUDIO_LOOP.TOOLTIP": "Si está habilitado, el clip de audio se repetirá mientras dure este emote.",
+
+	"STATE.TRANSITIONS": "Transiciones Adicionales",
+	"STATE.TRANSITIONS.TOOLTIP": "Condiciones personalizadas adicionales que pueden activar el estado de este emote.",
+	"STATE.TRANSITIONS_ADD": "AGREGAR TRANSICIÓN",
+
+	"STATE.TRANSITION_ENTRY": "Transición {0}",
+
+	"STATE.TRANSITION_CONDITIONS": "Condiciones",
+	"STATE.TRANSITION_CONDITIONS.TOOLTIP": "Activará este emote cuando se cumplan todas estas condiciones.",
+
+	"STATE.TRANSITION_STOP_ON_FALSE": "Detener en False",
+	"STATE.TRANSITION_STOP_ON_FALSE.TOOLTIP": "El gesto se detendrá automáticamente si la condición es evaluada como 'false'"
+}
